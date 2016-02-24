@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico=pacifico+4:500italic);
+
+
+body {
+    font-family: Georgia, Arial, sans-serif;
+    font-size: 20px;
+    background-color: #17e7f8;
+    color: fuchsia;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    text-align: center;
+    padding: 45px;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 3em;
+    font-family:'pacifico+4', sans-serif;
+    text-shadow: 1px 1px 1px rgba(17, 22, 33, 0.98);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    background: fuschia;
+    color: #031212;
+    padding: 5px 9px;
+    border: 5px solid transparent;
+    border-radius: 7px;
+    margin: 5px;
+    font-family: 'pacifico+4', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+
+}
+
+nav a.current { 
+background: #12be7b;
+}
+nav a:hover {
+    background: #12be7b;
+    border-color: saddlebrown;
+}
+
+.container {
+    max-width: 100em;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 180%;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+aside {
+    width: 20%;
+    clear: both;
+    float: left;
+    border-right: 2px solid #010b0b;
+    padding-right: 15px;
+    min-height: 1000px;
+    margin-right: 15px;
+}
+footer {
+    text-align: center;
+}
+
+
+float-grid figure {
+    width: 25%;
+    float: right;
+    margin: 0;
+}
+
+.float-grid figure:nth-of-type(4n+1) {
+   
+    clear: right;
+}
+
+
+.column-grid .gallery {
+
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+}
+
+.column-grid figure {
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+.column-grid figure img {
+    border: 15px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+}
+
+
+.caption-grid .gallery {
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    columns: 4;
+}
+
+.caption-grid figure {
+    margin: 0 0 20px;
+    width: 100%;
+    position: relative;
+}
+
+.caption-grid figcaption {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 0 5px 5px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.caption-grid figure img {
+    border-width: 5px 5px 0;
+}
+
+.caption-grid figcaption,
+.caption-grid figure img {
+    border-style: solid;
+    border-color: #0f0909;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+

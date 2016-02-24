@@ -1,0 +1,78 @@
+body {
+    background: #31f091;
+    font-family: Georgia, helvetica, sans-serif;
+}
+
+#container {
+    width: 900px;
+    min-height: 700px;
+    margin: 4px auto;
+}
+
+header,
+footer,
+aside,
+article,
+main {
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #0c1d1d;
+    font-weight: 800;
+    text-shadow: 2px 2px #c33c3c;
+}
+
+h2,
+h3,
+h4 {
+    color: #000aff;
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: square;
+}
+
+.Penguin2 {
+    float:left;
+    padding: 10px 15px 10px 0px;
+    width: 25%;
+    height: auto;
+}
+
+
+
+aside {
+    width: 25%;
+    clear: both;
+    float: left;
+    border-right: 2px solid #03f1fa;
+    padding-right: 15px;
+    min-height: 1000px;
+    margin-right: 15px;
+}
+
+a {
+    color: #0c1d1d;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: .8em;
+}
+
+#Penguin {
+    width: 60%;
+    height: auto;
+    margin: 5px 30px;
+}

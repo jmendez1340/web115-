@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);
+
+body {
+    background-image: url(Fire_Emblem_Fates_Title.jpg);
+    background-repeat:no-repeat;
+    background-size: 1200px 1325px;
+    font-family: Georgia, helvetica, sans-serif;
+    font-size: 18px;
+    color:#060607;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 960px;
+    min-height: 600px;
+    margin: 4px auto;
+}
+
+h1 {
+    color: #060607;
+    font-weight: 800;
+    text-shadow: 2px 2px white;
+    text-align: center;
+    font-family:'Montserrat+Alternates', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-weight: 800;
+    text-shadow: 2px 2px #060607;
+    text-align: center;
+    font-family:'Montserrat+Alternates', sans-serif;
+}
+
+header {min-height:120;
+font-family: 'Montserrat+Alternates',sans-serif}
+    ,
+footer {min-height:120;},
+aside,
+article,
+main {
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+}
+
+
+
+aside {
+    width: 50%;
+    clear: both;
+    float: left;
+    border-right: 3px solid #020707;
+    padding-right: 15px;
+    min-height: 900px;
+    margin-right: 25px;
+}
+
+
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.well{
+    background-color: aquamarine;
+    width:400px;
+    height:150px;
+float: left;
+}
+
+.wellss{
+    background-color: #74f3fd;
+    width:400px;
+    height:150px;
+float: left;
+}
+.wells{
+    background-color: aquamarine;
+    width:450px;
+    height:80px;
+    float: left;
+}
+
+.alert {
+   width:90%; 
+float: left;
+}
+
+.list-group{
+    width: 60%;
+    float:left; 
+}
+.table-responsive{
+    background-color: white;
+    width: 80%
+}
+
+
+.btn,
+.btn:hover,
+.btn:active,
+.btn:visited,
+.btn:focus {
+    background-color: #00c7a1;
+    border-color: #060607;
+}
+
+.jumbotron{ 
+background-color: #1c8dc9;}
+
+
+
+/*table border from http://www.uwec.edu/help/html/TB-widths.htm */
+
+/* Well CSS from https://www.codeschool.com/discuss/t/how-do-i-change-the-background-color-in-bootstraps-well-class/9290 */
+
+/* Skills picture from http://40.media.tumblr.com/ca84fa07d79a75aee1e87ed043971815/tumblr_nqf2sk4hKZ1sd2idso1_500.png */
+
+/* Dragon Fang picture from
+
+http://pm1.narvii.com/5772/9374cb2d9cc4f349cb32773021092a2dc05a06ad_hq.jpg */

@@ -1,0 +1,57 @@
+/* Variables */
+
+$purple: #C0BCE8;
+$green: #0DFFA9;
+$darkblue:#6868ff;
+$blue: #30D8E8;
+$black: #1d1c1d;
+
+// Modules and Variables
+@import "partials/base";
+
+/*      General Page info       */
+
+.container {
+    max-width: 1060 px;
+    color: $blue;
+    background: $black;
+    overflow: auto;
+    border-radius: 25px;
+    margin: 10 px auto;
+}
+
+
+body {
+    
+    background: #0DFFA9;
+}
+
+.success {
+  @extend .message;
+  border-color: black;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(12px); }
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 4px 10px;
+    text-decoration: none;
+  }
+}

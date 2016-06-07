@@ -1,0 +1,142 @@
+@viewport {
+    width: device-width;
+}
+
+/* Variables */
+/*      General Page info       */
+/* line 12, /Volumes/DATA/Users/jmendez1340/Documents/web115 /preproccessor/styles.scss */
+.container {
+  max-width: 1060 px;
+  color: #30D8E8;
+  background: #1d1c1d;
+  overflow: auto;
+  border-radius: 25px;
+  margin: 10 px auto; }
+
+/* line 22, /Volumes/DATA/Users/jmendez1340/Documents/web115 /preproccessor/styles.scss */
+body {
+  background: #0DFFA9; }
+
+/* line 27, /Volumes/DATA/Users/jmendez1340/Documents/web115 /preproccessor/styles.scss */
+.success {
+  border-color: black;
+font-size: 1.5em;}
+
+/* line 39, /Volumes/DATA/Users/jmendez1340/Documents/web115 /preproccessor/styles.scss */
+.box {
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  border-radius: 12px; }
+
+/* line 42, /Volumes/DATA/Users/jmendez1340/Documents/web115 /preproccessor/styles.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* line 48, /Volumes/DATA/Users/jmendez1340/Documents/web115 /preproccessor/styles.scss */
+nav li {
+  display: inline-block; }
+
+/* line 50, /Volumes/DATA/Users/jmendez1340/Documents/web115 /preproccessor/styles.scss */
+nav a {
+  display: block;
+  padding: 4px 10px;
+  text-decoration: none; }
+
+/*# sourceMappingURL=styles.css.map */
+
+.jumbotron{ 
+background-color: white;
+text-align: center;}
+
+
+aside {
+    width: 50%;
+    clear: both;
+    float: left;
+    border-right: 3px solid white;
+    padding-right: 5px;
+    min-height: 250px;
+    margin-right: 25px;
+}
+
+
+li {
+    font-size: 1.25em;
+}
+
+p {font-size: 1.25em;}
+
+h1 {
+  font-size: 1.75em;}
+
+h2 {
+  font-size: 2.00em; }
+h3 {
+  font-size: 1.95em; 
+}
+#Recycling2{
+    float:right;
+    padding-right: 40px;
+}
+#Beach{
+    float: right
+}
+#Wrapping{
+    float: right
+}
+#Clean{
+    float: right
+}
+#Penguin{
+    float: right
+}
+footer {
+    text-align: center;
+}
+
+
+
+
+/* Recycle Image 
+https://s-media-cache-ak0.pinimg.com/236x/e3/aa/9e/e3aa9e00c1f2a638f802988d7e5df0d5.jpg
+*/
+
+/* Wrapping
+
+https://themrsandthemisc.files.wordpress.com/2013/05/christmas_wrapping_paper_1249.jpg */
+
+
+/* Beach http://assignment42standardoflivingwebsite.weebly.com/uploads/5/2/4/6/52464971/7889254.jpg?268 */
+
+/* Bird 
+https://s-media-cache-ak0.pinimg.com/236x/8b/d0/9e/8bd09e88466b20874dc16d14c1eceba6.jpg */
+
+
+/* Pollution
+http://greenact2020.org/wp-content/uploads/2013/07/46.jpg */
+
+
+/* Penguin 
+http://s2.minutebuzz.com/i/2014/03/119-L.jpg.jpg*/
+
+/* Clean 
+http://www.ngepluk.com/p/peaceful-beach-wallpaper-for-android-xcf.jpg */
+
+/* Captain Planet 
+http://cdn3.whatculture.com/wp-content/uploads/2015/11/RHDlc37a-300x200.jpg*/
+
+/* Jurassic Park 
+http://img-comment-fun.9cache.com/media/aejLv9W/aZJ2YE4d_700wa_0.gif*/
+
+
+/* Bins
+http://www.environment.co.za/wp-content/uploads/2015/05/Recycling-Tips-For-Waste-Disposal-and-Reduction.jpg
+*/
+
+
+/* Jobs
+https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2009/2/26/1235660296428/Greenstar-Recycling-facil-001.jpg?w=620&q=55&auto=format&usm=12&fit=max&s=5ddd1fea343cda3e8fbffa86863e65e6
+*/
